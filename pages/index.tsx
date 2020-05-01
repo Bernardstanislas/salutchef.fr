@@ -1,5 +1,6 @@
 import Head from "next/head";
-import Header from "../components/header";
+import Header from "../components/Header";
+import Recipe from "../components/Recipe";
 
 export default function Home() {
   return (
@@ -10,6 +11,9 @@ export default function Home() {
       </Head>
       <main>
         <Header />
+        <div className="pt-16">
+          <Recipe />
+        </div>
       </main>
 
       <footer></footer>
