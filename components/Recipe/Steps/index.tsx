@@ -51,7 +51,6 @@ const Steps: React.FunctionComponent<IStepsProps> = (props) => {
         text="Laisser croûter 30 minutes, les macarons ne doivent plus coller au doigt"
       />
       <Step number={12} text="Cuire 14 minutes dans un four ventilé à 160°C" />
-      <Step number={13} text="Kiffer la recette de cette boloss d'A." />
     </>
   );
 };
