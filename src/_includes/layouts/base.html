@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html class="antialiased" lang="fr">
+
+<head>
+  {% include "partials/site-head.html" %}
+</head>
+
+<body data-env="{{ node.env }}">
+
+  <main>
+    {% block content %}{% endblock %}
+  </main>
+
+
+  <script type="module" src="/scripts/index.js"></script>
+</body>
+
+</html>
