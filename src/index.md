@@ -1,3 +1,11 @@
-# En rénovation
+---
+pagination:
+    data: recipes
+    size: 1
+    alias: recipe
+permalink: "recettes/{{ recipe.title | slug }}/"
+---
 
-Désolé le site est en cours de rénovation, il revient tout bon tout frais très vite !
+# {{ recipe.title }}
+
+{{ recipe.content }}

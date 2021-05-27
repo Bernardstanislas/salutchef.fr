@@ -3,6 +3,7 @@ module.exports = function (config) {
         dir: {
             input: "src",
             output: "dist",
+            data: "data",
         },
     };
 };
